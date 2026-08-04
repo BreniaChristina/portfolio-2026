@@ -1,0 +1,72 @@
+body {
+    color:#fff;
+}
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(18,93,255);
+    font-size: 3rem;
+    min-width: 36rem;
+}
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: blue;
+    transform: scale(1.01);
+    border:yellowgreen .1rem solid; 
+    /* transition: transform 100ms; */
+    margin-bottom: 0.6rem;
+}
+.choice-prefix {
+    padding:5px;
+    color:white;
+} 
+
+.choice-text {
+    width: 100%;
+    text-align: center;
+}
+.correct {
+    background: yellowgreen;
+}
+.incorrect {
+    background: red;
+}
+
+/*Head of Display*/
+ #hud {
+    display: flex;
+    justify-content: space-between;
+}
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+} 
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width:20rem;
+    height:3rem;
+    border:0.2rem solid greenyellow;
+    margin-top:2rem;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    background: yellowgreen;
+    content: "Time Remaining";
+}
+#progressBarFull {
+    height:100%;
+    background: red;
+    width:0%;
+}
+
+@media screen and (max-width:919px) {
+    .choice-container {
+        min-width:40rem;
+    }
+}

@@ -1,0 +1,48 @@
+/* Align the thumbnail project with the brochure card beside it. */
+.thumbnail-card {
+  min-width: 0;
+  background: #d9d0c4;
+}
+
+.thumbnail-preview {
+  padding: 28px;
+  display: grid;
+  place-items: center;
+  background: #b9ada0;
+}
+
+.thumbnail-preview img {
+  width: 82%;
+  height: auto;
+       max-width: 400px;
+  object-fit: contain;
+  box-shadow: 0 18px 35px rgba(30, 24, 18, 0.2);
+}
+
+.thumbnail-card:hover .thumbnail-preview img {
+  transform: translateY(-3px);
+}
+
+.thumbnail-preview:after,
+.thumbnail-preview small {
+  display: none;
+}
+
+.thumbnail-info {
+  position: relative;
+  min-height: 192px;
+  align-content: start;
+}
+
+.thumbnail-info:after {
+  content: "Open project  →";
+  align-self: end;
+  justify-self: start;
+  margin-top: 22px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}

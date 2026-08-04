@@ -1,0 +1,15 @@
+# Local iteration backups
+.feature-backup/
+.integration-backup/
+.simplify-backup/
+.webdesign-backup/
+assets/.review-backup/
+
+# Temporary working files
+tmp/
+.integration-temp/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
