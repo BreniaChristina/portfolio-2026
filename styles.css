@@ -100,9 +100,7 @@ nav a,
 }
 .hero-copy > p:not(.label) {
   max-width: 430px;
-  font:
-    17px/1.6 Georgia,
-    serif;
+ 
   color: #e6dfd5;
 }
 .text-link {
