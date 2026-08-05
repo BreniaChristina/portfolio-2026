@@ -244,9 +244,7 @@ nav a,
 }
 .project-story > div > p,
 .video-copy > p:not(.label, .meta) {
-  font:
-    16px/1.7 Georgia,
-    serif;
+  
   color: #5d564d;
 }
 dl {
