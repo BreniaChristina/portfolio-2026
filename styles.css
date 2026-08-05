@@ -573,7 +573,7 @@ footer p {
   text-align: left;
   margin: 0 auto;
 }
-span.ytAttributedStringHost.ytmVideoInfoLink.ytAttributedStringWhiteSpaceNoWrap {
+.ytmVideoInfoVideoTitle {
     font-family: Georgia, serif!important;
     font-weight: normal!important;
 }
