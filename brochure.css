@@ -45,9 +45,7 @@
 
 .brochure-info > p:not(.label) {
   margin: 15px 0 0;
-  font:
-    14px/1.55 Georgia,
-    serif;
+ 
   color: #5d564d;
 }
 
