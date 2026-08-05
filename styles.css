@@ -727,9 +727,7 @@ footer p {
 .funnel-overview > div:first-child > p:last-child,
 .email-extra p:last-child {
   margin: 0;
-  font:
-    16px/1.7 Georgia,
-    serif;
+  
   color: #c9d1d1;
 }
 .funnel-stats {
