@@ -810,7 +810,7 @@ footer p {
   grid-template-columns: 1fr auto;
   align-items: end;
   gap: 5vw;
-  margin-top: 24px;
+   
   padding: 50px;
   background: #d9c9b5;
 }
