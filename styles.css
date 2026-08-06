@@ -479,9 +479,10 @@ dd {
   border-bottom: 1px solid;
   padding-bottom: 8px;
 }
-img.email-pic {
+img.email-pic, img.mailchimp-img {
   width:100%;
 }
+ 
 footer {
   min-height: 110px;
   padding: 35px 6vw;
