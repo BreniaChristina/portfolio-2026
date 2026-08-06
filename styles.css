@@ -833,6 +833,7 @@ footer p {
   letter-spacing: 0.17em;
   text-transform: uppercase;
   text-decoration: none;
+  max-width:fit-content;
 }
 @media (max-width: 900px) {
   .funnel-overview,
