@@ -479,6 +479,9 @@ dd {
   border-bottom: 1px solid;
   padding-bottom: 8px;
 }
+img.email-pic {
+  width:100%;
+}
 footer {
   min-height: 110px;
   padding: 35px 6vw;
