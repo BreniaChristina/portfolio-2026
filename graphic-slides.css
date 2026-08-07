@@ -1,0 +1,29 @@
+.irest-card .thumbnail-preview img {
+  object-position: center;
+}
+
+.lightbox figcaption {
+  gap: 36px;
+  align-items: start;
+}
+
+.lightbox-caption-heading {
+  display: grid;
+  gap: 8px;
+  min-width: 220px;
+}
+
+.lightbox-description {
+  max-width: 520px;
+  margin: 0;
+  font:
+    14px/1.6 Georgia,
+    serif;
+  color: #cfc7bc;
+}
+
+@media (max-width: 760px) {
+  .lightbox-description {
+    font-size: 13px;
+  }
+}

@@ -16,6 +16,7 @@ const dialog = document.querySelector(".lightbox"),
   art = dialog.querySelector(".lightbox-art"),
   title = dialog.querySelector("strong"),
   caption = dialog.querySelector("figcaption span"),
+  description = dialog.querySelector(".lightbox-description"),
   cards = [...document.querySelectorAll(".gallery-card[data-group]")];
 let activeGroup = [],
   activeIndex = 0,
@@ -24,6 +25,7 @@ function render() {
   const card = activeGroup[activeIndex];
   title.textContent = card.dataset.title;
   caption.textContent = card.dataset.caption;
+  description.textContent = card.dataset.description || "";
   if (card.dataset.image) {
     art.classList.add("has-image");
     art.style.backgroundImage = `url("${card.dataset.image}")`;
