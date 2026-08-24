@@ -325,6 +325,13 @@ dd {
   background: rgba(14, 11, 8, 0.3);
 }*/
 
+ 
+
+#child-care {
+  background: url("media/ms-rosies.jpg") center/cover;
+  background-position: 50% 2%;
+}
+
 .screen b,
 .screen i {
   position: relative;
