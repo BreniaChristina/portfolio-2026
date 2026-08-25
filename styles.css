@@ -312,10 +312,10 @@ dd {
   position: relative;
 }
 #game {
-  background: url("media/javascript-timed-game.jpg") center/cover;
+  background: url("media/quiz-game.jpg") center/cover;
 }
 #chiro {
-  background: url("media/local-chiropractic-office.jpg") center/cover;
+  background: url("media/my-burg-website.jpg") center/cover;
   background-position: 50% 2%;
 }
 /*.screen:after {
